@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/gustavo/projetos/Senac/controle_estoque/controle_estoque.csproj": {}
+  },
+  "projects": {
+    "/home/gustavo/projetos/Senac/controle_estoque/controle_estoque.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gustavo/projetos/Senac/controle_estoque/controle_estoque.csproj",
+        "projectName": "controle_estoque",
+        "projectPath": "/home/gustavo/projetos/Senac/controle_estoque/controle_estoque.csproj",
+        "packagesPath": "/home/gustavo/.nuget/packages/",
+        "outputPath": "/home/gustavo/projetos/Senac/controle_estoque/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gustavo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/gustavo/.asdf/installs/dotnet-core/6.0.427/sdk/6.0.427/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
